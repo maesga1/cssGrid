@@ -1,0 +1,40 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1% 1%;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+      "care care care OSO OSO "
+      "OSO1 OSO2 OSO3 OSO3 OSO4"
+      "OSO6 OSO6 OSO3 OSO3 OSO5"
+      "OSO7 OSO8 OSO9 OSO9 OSO9";
+    width: 60%;
+    height: 100%;
+  }
+  
+  .care { grid-area: care; }
+  
+  .OSO { grid-area: OSO; }
+  
+  .OSO1 { grid-area: OSO1; }
+  
+  .OSO2 { grid-area: OSO2; }
+  
+  .OSO3 { grid-area: OSO3; }
+  
+  .OSO4 { grid-area: OSO4; }
+  
+  .OSO5 { grid-area: OSO5; }
+  
+  .OSO6 { grid-area: OSO6; }
+  
+  .OSO7 { grid-area: OSO7; }
+  
+  .OSO8 { grid-area: OSO8; }
+  
+  .OSO9 { grid-area: OSO9; }
+  
